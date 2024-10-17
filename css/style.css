@@ -1,0 +1,32 @@
+.root {
+  -fx-font-family: 'Roboto', sans-serif;
+  -fx-background-color: #121212;
+}
+
+.button {
+  -fx-background-color: #6200EE;
+  -fx-text-fill: white;
+  -fx-font-size: 14px;
+  -fx-padding: 10px;
+  -fx-background-radius: 5px;
+}
+
+.button:hover {
+  -fx-background-color: #3700B3;
+}
+
+.combo-box {
+  -fx-background-color: #424242;
+  -fx-text-fill: white;
+  -fx-font-size: 14px;
+}
+
+.check-box {
+  -fx-text-fill: white;
+  -fx-font-size: 14px;
+}
+
+.check-box .box {
+  -fx-background-color: #424242;
+  -fx-border-color: white;
+}
