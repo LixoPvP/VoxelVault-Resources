@@ -1,32 +1,42 @@
+/* Import Material Icons from Google Fonts */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* General root styles */
 .root {
   -fx-font-family: 'Roboto', sans-serif;
-  -fx-background-color: #121212;
+  -fx-background-color: #121212; /* Dark background */
 }
 
+/* Button styles */
 .button {
-  -fx-background-color: #6200EE;
-  -fx-text-fill: white;
-  -fx-font-size: 14px;
-  -fx-padding: 10px;
-  -fx-background-radius: 5px;
+  -fx-background-color: #6200EE; /* Primary color */
+  -fx-text-fill: white; /* Text color */
+  -fx-font-size: 14px; /* Font size */
+  -fx-padding: 10px; /* Padding */
+  -fx-background-radius: 5px; /* Rounded corners */
 }
 
+/* Hover effect for buttons */
 .button:hover {
-  -fx-background-color: #3700B3;
+  -fx-background-color: #3700B3; /* Darker shade on hover */
 }
 
+/* Styles for Material Icons */
+.material-icons {
+  font-family: 'Material Icons';
+  font-size: 24px; /* Adjust size as needed */
+  vertical-align: middle; /* Align icon with text */
+}
+
+/* ComboBox styles */
 .combo-box {
-  -fx-background-color: #424242;
-  -fx-text-fill: white;
-  -fx-font-size: 14px;
+  -fx-background-color: #424242; /* Dark background */
+  -fx-text-fill: white; /* Text color */
+  -fx-font-size: 14px; /* Font size */
 }
 
+/* CheckBox styles */
 .check-box {
-  -fx-text-fill: white;
-  -fx-font-size: 14px;
-}
-
-.check-box .box {
-  -fx-background-color: #424242;
-  -fx-border-color: white;
+  -fx-text-fill: white; /* Text color */
+  -fx-font-size: 14px; /* Font size */
 }
