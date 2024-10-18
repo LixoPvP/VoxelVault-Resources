@@ -1,9 +1,10 @@
-/* Import Material Icons from Google Fonts */
+/* Import fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 
 /* General root styles */
 .root {
-  -fx-font-family: 'Roboto', sans-serif;
+  -fx-font-family: 'Roboto', sans-serif; /* Default font for the app */
   -fx-background-color: #121212; /* Dark background */
 }
 
@@ -11,6 +12,7 @@
 .button {
   -fx-background-color: #6200EE; /* Primary color */
   -fx-text-fill: white; /* Text color */
+  -fx-font-family: 'Open Sans', sans-serif; /* Font family */
   -fx-font-size: 14px; /* Font size */
   -fx-padding: 10px; /* Padding */
   -fx-background-radius: 5px; /* Rounded corners */
@@ -32,11 +34,13 @@
 .combo-box {
   -fx-background-color: #424242; /* Dark background */
   -fx-text-fill: white; /* Text color */
+  -fx-font-family: 'Open Sans', sans-serif; /* Font family */
   -fx-font-size: 14px; /* Font size */
 }
 
 /* CheckBox styles */
 .check-box {
   -fx-text-fill: white; /* Text color */
+  -fx-font-family: 'Open Sans', sans-serif; /* Font family */
   -fx-font-size: 14px; /* Font size */
 }
