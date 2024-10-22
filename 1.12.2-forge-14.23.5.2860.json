@@ -20,6 +20,17 @@
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge",
   "libraries": [
     {
+      "name": "net.minecraft:client:1.12.2",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraft/client/1.12.2/client.jar",
+          "url": "https://piston-data.mojang.com/v1/objects/0f275bc1547d01fa5f56ba34bdc87d981ee12daf/client.jar",
+          "sha1": "0f275bc1547d01fa5f56ba34bdc87d981ee12daf",
+          "size": 10180113
+        }
+      }
+    },
+    {
       "name": "net.minecraftforge:forge:1.12.2-14.23.5.2860",
       "downloads": {
         "artifact": {
