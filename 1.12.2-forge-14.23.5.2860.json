@@ -31,17 +31,6 @@
       }
     },
     {
-      "name": "net.minecraft:client:1.12.2",
-      "downloads": {
-        "artifact": {
-          "path": "net/minecraft/client/1.12.2/client.jar",
-          "url": "https://piston-data.mojang.com/v1/objects/0f275bc1547d01fa5f56ba34bdc87d981ee12daf/client.jar",
-          "sha1": "0f275bc1547d01fa5f56ba34bdc87d981ee12daf",
-          "size": 10180113
-        }
-      }
-    },
-    {
       "name": "org.ow2.asm:asm-debug-all:5.2",
       "downloads": {
         "artifact": {
