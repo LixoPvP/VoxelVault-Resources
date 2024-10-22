@@ -20,6 +20,17 @@
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge",
   "libraries": [
     {
+      "name": "net.minecraftforge:forge:1.12.2-14.23.5.2860",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860.jar",
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/forge-1.12.2-14.23.5.2860.jar",
+          "sha1": "029250575d3aa2cf80b56dffb66238a1eeaea2ac",
+          "size": 4466148
+        }
+      }
+    },
+    {
       "name": "org.ow2.asm:asm-debug-all:5.2",
       "downloads": {
         "artifact": {
