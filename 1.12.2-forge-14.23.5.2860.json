@@ -19,124 +19,103 @@
   },
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge",
   "natives": [
+    [
     {
       "downloads": {
-        "name": "jinput-dx8"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/jinput-dx8.dll",
-            "size": 61952
-          }
+        "name": "jinput-dx8",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/jinput-dx8.dll",
+          "size": 61952
         }
       }
     },
     {
       "downloads": {
-        "name": "jinput-dx8_64"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/jinput-dx8_64.dll",
-            "size": 65024
-          }
+        "name": "jinput-dx8_64",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/jinput-dx8_64.dll",
+          "size": 65024
         }
       }
     },
     {
       "downloads": {
-        "name": "jinput-raw"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/jinput-raw.dll",
-            "size": 59392
-          }
+        "name": "jinput-raw",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/jinput-raw.dll",
+          "size": 59392
         }
       }
     },
     {
       "downloads": {
-        "name": "jinput-raw_64"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/jinput-raw_64.dll",
-            "size": 62464
-          }
+        "name": "jinput-raw_64",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/jinput-raw_64.dll",
+          "size": 62464
         }
       }
     },
     {
       "downloads": {
-        "name": "jinput-wintab"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/jinput-wintab.dll",
-            "size": 56832
-          }
+        "name": "jinput-wintab",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/jinput-wintab.dll",
+          "size": 56832
         }
       }
     },
     {
       "downloads": {
-        "name": "lwjgl"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/lwjgl.dll",
-            "size": 306176
-          }
+        "name": "lwjgl",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/lwjgl.dll",
+          "size": 306176
         }
       }
     },
     {
       "downloads": {
-        "name": "lwjgl64"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/lwjgl64.dll",
-            "size": 317440
-          }
+        "name": "lwjgl64",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/lwjgl64.dll",
+          "size": 317440
         }
       }
     },
     {
       "downloads": {
-        "name": "OpenAL32"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/OpenAL32.dll",
-            "size": 390144
-          }
+        "name": "OpenAL32",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/OpenAL32.dll",
+          "size": 390144
         }
       }
     },
     {
       "downloads": {
-        "name": "OpenAL64"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/OpenAL64.dll",
-            "size": 382464
-          }
+        "name": "OpenAL64",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/OpenAL64.dll",
+          "size": 382464
         }
       }
     },
     {
       "downloads": {
-        "name": "SAPIWrapper_x64"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/SAPIWrapper_x64.dll",
-            "size": 85504
-          }
+        "name": "SAPIWrapper_x64",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/SAPIWrapper_x64.dll",
+          "size": 85504
         }
       }
     },
     {
       "downloads": {
-        "name": "SAPIWrapper_x86"
-        "downloads": {
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/SAPIWrapper_x86.dll",
-            "size": 71168
-          }
+        "name": "SAPIWrapper_x86",
+        "artifact": {
+          "url": "https://raw.githubusercontent.com/LixoPvP/VoxelVault-Resources/refs/heads/main/natives/SAPIWrapper_x86.dll",
+          "size": 71168
         }
       }
     }
