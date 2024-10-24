@@ -119,7 +119,7 @@
         }
       }
     }
-  ]
+  ],
   "libraries": [
     {
       "name": "net.minecraft:client:1.12.2",
